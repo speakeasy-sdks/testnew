@@ -23,7 +23,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.CreateUserv1(ctx, shared.UserInput{

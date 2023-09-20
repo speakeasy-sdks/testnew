@@ -30,7 +30,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.CreateUserv1(ctx, shared.UserInput{
@@ -81,7 +81,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.DeleteUserv1(ctx, operations.DeleteUserv1Request{
@@ -126,7 +126,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.GetHealth(ctx)
@@ -169,7 +169,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.GetUserv1(ctx, operations.GetUserv1Request{
@@ -215,7 +215,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.SearchUsersv1(ctx, shared.Filters{
@@ -268,7 +268,7 @@ import(
 )
 
 func main() {
-    s := acmetestgo.New()
+    s := testnew.New()
 
     ctx := context.Background()
     res, err := s.AcmeTestGo.UpdateUserv1(ctx, operations.UpdateUserv1Request{
