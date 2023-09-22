@@ -120,8 +120,8 @@ func New(opts ...SDKOption) *AcmeTestGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "0.4.1",
-			GenVersion:        "2.118.1",
+			SDKVersion:        "0.4.2",
+			GenVersion:        "2.125.1",
 		},
 	}
 	for _, opt := range opts {
