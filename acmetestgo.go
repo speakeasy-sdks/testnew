@@ -121,9 +121,9 @@ func New(opts ...SDKOption) *AcmeTestGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "0.8.0",
-			GenVersion:        "2.181.1",
-			UserAgent:         "speakeasy-sdk/go 0.8.0 2.181.1 0.1.0 github.com/speakeasy-sdks/testnew",
+			SDKVersion:        "0.9.0",
+			GenVersion:        "2.185.0",
+			UserAgent:         "speakeasy-sdk/go 0.9.0 2.185.0 0.1.0 github.com/speakeasy-sdks/testnew",
 		},
 	}
 	for _, opt := range opts {
