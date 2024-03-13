@@ -122,9 +122,9 @@ func New(opts ...SDKOption) *AcmeTestGo {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.1.0",
-			SDKVersion:        "0.14.0",
-			GenVersion:        "2.279.1",
-			UserAgent:         "speakeasy-sdk/go 0.14.0 2.279.1 0.1.0 github.com/speakeasy-sdks/testnew",
+			SDKVersion:        "0.14.1",
+			GenVersion:        "2.280.6",
+			UserAgent:         "speakeasy-sdk/go 0.14.1 2.280.6 0.1.0 github.com/speakeasy-sdks/testnew",
 			Hooks:             hooks.New(),
 		},
 	}
